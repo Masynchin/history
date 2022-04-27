@@ -198,7 +198,7 @@ comment_id │ reply_to
 - Swift
 - Dart
 - Elixir
-- Ballerina.
+- Ballerina
 
 Ballerina не достаточно популярный, а Swift и Dart не поддерживаются на моём ноутбуке.
 Поэтому выбор пал на Elixir.
