@@ -81,29 +81,19 @@
 - [black](https://github.com/psf/black)
 - [flake8](https://github.com/PyCQA/flake8)
 
-### black
-
 Black форматирует код в едином стиле. У него (практически) нет
 настроек. Кроме длины строки - её я ограничил в
 [79 символов](https://peps.python.org/pep-0008/#maximum-line-length).
-
-### flake8
 
 Flake8 предупреждает о огрехах кода. Неиспользуемые импорты, функции
 с одинаковым именем, сравнение на `None` без `is`, и т.п. Но главная
 фишка flake8 - плагины. В проект я сразу добавил эти:
 
-- [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear)
-
-Более сложный поиск огрехов.
-
-- [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions)
-
-Исправление всего, связанного с литералами и вызовами встроенных коллекций.
-
-- [flake8-docstrings](https://github.com/PyCQA/flake8-docstrings)
-
-Проверка на наличие и формат [докстрингов](https://peps.python.org/pep-0257).
+- [flake8-bugbear](https://github.com/PyCQA/flake8-bugbear) - более сложный поиск огрехов.
+- [flake8-comprehensions](https://github.com/adamchainz/flake8-comprehensions) - исправление
+  всего, связанного с литералами и вызовами встроенных коллекций.
+- [flake8-docstrings](https://github.com/PyCQA/flake8-docstrings) - проверка на наличие
+  и формат [докстрингов](https://peps.python.org/pep-0257).
 
 ### Негодование
 
